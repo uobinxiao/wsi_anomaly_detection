@@ -59,11 +59,11 @@ if "conch" == name.lower():
 ```
 Replace "your pytorch_model.bin file path here" with the actual path to the downloaded CONCH pretrained weights.
 
-## Weights & Biases (WandB)
+## Weights & Biases (Wandb)
 
 Training logs are recorded using **Weights & Biases**.
 
-Before running the training script, add your WandB API key in `patch_train.py`:
+Before running the training script, add your Wandb API key in `patch_train.py`:
 
 ```python
 wandb.login(key="your_wandb_key_here")
@@ -81,7 +81,10 @@ During training, the script will automatically:
 - Load the dataset
 - Train the model
 - Evaluate the model performance
-- Log training metrics to WandB
+- Log training metrics to Wandb
+
+## Other Datasets
+The **Camelyon16** and **GleasonArvaniti** datasets can be found at [https://camelyon17.grand-challenge.org/](https://camelyon17.grand-challenge.org/), and [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP), respectively.
 
 ## Acknowledgements
 
