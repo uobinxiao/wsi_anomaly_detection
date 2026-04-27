@@ -1,3 +1,4 @@
+# [Revisiting Reconstruction-based Anomaly Detection for Whole Slide Image (IEEE TMI 2026)](https://ieeexplore.ieee.org/abstract/document/11494142)
 
 ## Dataset Preparation
 
@@ -85,6 +86,21 @@ During training, the script will automatically:
 
 ## Other Datasets
 The **Camelyon16** and **GleasonArvaniti** datasets can be found at [https://camelyon17.grand-challenge.org/](https://camelyon17.grand-challenge.org/), and [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP), respectively.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+
+@article{xiao2026revisiting,
+  title={Revisiting Reconstruction-based Anomaly Detection for Whole Slide Image},
+  author={Xiao, Bin and Wangulu, Collins and van der Kwast, Theodorus and Yousef, George M and Zabihollahy, Fatemeh},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2026},
+  publisher={IEEE}
+}
+```
 
 ## Acknowledgements
 
